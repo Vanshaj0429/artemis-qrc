@@ -67,7 +67,6 @@ python experiment.py        # ~15 s: walk-forward comparison, DM tests, figures
 python analysis.py          # ~1 min: memory capacity + RV timescale
 python scaling_sweep.py     # ~5 min: walk-forward scaling (n=10 is the slow part)
 python covid_study.py       # ~30 s: VIX COVID-era robustness
-pdflatex paper.tex && pdflatex paper.tex   # -> paper.pdf
 ```
 
 All randomness is seeded. Re-running reproduces the numbers above exactly.
