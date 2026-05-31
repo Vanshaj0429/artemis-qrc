@@ -23,7 +23,7 @@ Expanding-window walk-forward; readout refit before every one-month-ahead foreca
 | ESN-100 (linear) | 0.01893 | 0.473 | 0.526 | 0.202 | 0.02763 | -2.15 (0.03) |
 | Persistence (lag-1) | 0.01942 | 0.688 | 0.490 | 0.248 | 0.02939 | -1.85 (0.07) |
 
-Honest headline: at n=8 the QRC is **genuinely competitive** with strong classical
+At n=8 the QRC is **genuinely competitive** with strong classical
 baselines. QR2 has the lowest RMSE of any model, but the gaps to HAR and the
 strictly matched ESN-8 (same degree-2 polynomial readout) are not significant
 (DM p ~ 0.98). QR2 significantly beats only the oversized linear ESN-100 (p=0.03)
@@ -37,8 +37,7 @@ baselines.
 
 Earlier single-split numbers showed a much larger QRC win; that was an artefact of
 the single split and an unmatched (polynomial vs linear) readout. The walk-forward
-protocol plus the strictly matched ESN baseline corrected it. This is the honest,
-defensible result.
+protocol plus the strictly matched ESN baseline corrected it.
 
 ## Repository layout
 
@@ -93,5 +92,5 @@ Finance and cross-check realised variance against the Oxford-Man library.
 
 ## Disclosure
 
-Code scaffolding and the paper draft were produced with LLM assistance. The QRC
+Code scaffolding and the paper layout were produced with LLM assistance. The QRC
 formulation, experiment design, results, and analysis are the team's own work.
